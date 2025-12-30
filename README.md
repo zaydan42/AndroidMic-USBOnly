@@ -7,7 +7,6 @@
 
 <!-- <a href="https://flathub.org/apps/io.github.teamclouday.AndroidMic"><img align=center height="40" src="https://flathub.org/assets/badges/flathub-badge-en.svg"  alt="Download on Flathub"/></a> -->
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/teamclouday/AndroidMic.svg?logo=github&label=GitHub&cacheSeconds=3600)](https://github.com/teamclouday/AndroidMic/releases/latest)
-[![F-Droid](https://img.shields.io/f-droid/v/io.github.teamclouday.AndroidMic?logo=f-droid&label=F-Droid&cacheSeconds=3600)](https://f-droid.org/packages/io.github.teamclouday.AndroidMic)
 
 ---
 
@@ -58,9 +57,6 @@
     </details>
 
 - **3. Choose a connection method**: This is how your phone will be connected to your PC and stream audio from the mic.
-
-  For TCP & UDP, connect your phone and PC to the same internet.
-
   For USB serial, connect your phone to PC with a cable.
 
     <details>
@@ -95,10 +91,6 @@
     <details>
     <summary>More about connection configurations</summary>
 
-  For TCP/UDP, you will need to enter the PC address and port. You can find that information from the log area on PC app.
-
-  For USB adb, set your phone to developer mode and enable USB debugging.
-
   For USB serial, make sure your phone's USB setting is charging only. With this option, the app will ask your permission to launch the app in accessory mode.
 
     </details>
@@ -114,5 +106,4 @@ For more question / feature request / bug report, please [submit an issues](http
 The PC app started as a WPF app written in C# and was only supported on Windows. Now most of the features are recreated in Rust app thanks to @wiiznokes and it's cross platform supported. But here's the [link to the WPF app branch](https://github.com/teamclouday/AndroidMic/tree/wpf-app-backup) in case you are interested.
 
 Bluetooth is no longer supported because USB serial is made possible.
-
 Windows defender will very often identify the app as a virus, with their ML algorithm. If that happens, please [report to Microsoft](https://www.microsoft.com/en-us/wdsi/filesubmission) to get it fixed.
