@@ -1,6 +1,6 @@
 <p align="center">
   <img align="center" src="./Assets/app_icon.svg" alt="app icon" width="80px" />
-  <h1 align="center" style="display: inline-block; margin-left: 12px; vertical-align: middle;">AndroidMic</h1>
+  <h1 align="center" style="display: inline-block; margin-left: 12px; vertical-align: middle;">AndroidMicUSBonly</h1>
 </p>
 
 <h3 align="center">Use your Android phone as a microphone for your PC</h3>
